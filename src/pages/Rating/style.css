@@ -1,0 +1,82 @@
+.Rating-content {
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 0 2rem;
+    max-width: 363px;
+    max-height: 363px;
+}
+
+.Rating-container {
+    margin: 1rem 2rem;
+}
+
+.Rating-icon {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(214, 19%, 21%);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.Rating-text {
+    text-align: left;
+}
+
+.Rating-p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 28px;
+}
+
+.Rating-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Rating-input {
+    background-color: hsl(214, 19%, 21%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100%;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+}
+
+.Rating-input > span {
+    margin-top: 4px;
+}
+
+.Rating-input:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.Rating-btn {
+    all: unset;
+    background: hsl(25, 97%, 53%);
+    width: 100%;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    margin-bottom: 24px;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.Rating-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}

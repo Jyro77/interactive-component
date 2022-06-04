@@ -1,38 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    font-size: 15px;
+    text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-footer a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
 }
+
+/* @media screen and (min-width: 550px) {
+    .App-container {
+        max-width: 40%;
+    }
+} */
