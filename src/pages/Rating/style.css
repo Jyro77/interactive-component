@@ -23,15 +23,18 @@
     border-radius: 100%;
     width: 45px;
     height: 45px;
+    user-select: none;
 }
 
 .Rating-text {
     text-align: left;
+    user-select: none;
 }
 
 .Rating-p {
     color: hsl(217, 12%, 63%);
     margin-bottom: 28px;
+    user-select: none;
 }
 
 .Rating-section {

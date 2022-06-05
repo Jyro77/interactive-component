@@ -23,7 +23,7 @@ function Thanks() {
                     <div>
                         <div className='Thanks-rating'>{`You selected ${rating} out of 5`}</div>
                         <div>
-                            <h2>Thank you!</h2>
+                            <h2 className='Thanks-title'>Thank you!</h2>
                             <p className='Thanks-p'>
                                 We appreciate you taking the time to give a
                                 rating. If you ever need more support, don’t
@@ -35,7 +35,9 @@ function Thanks() {
                     <div>
                         <div className='Thanks-rating-2'>{`You have not selected any option :(`}</div>
                         <div>
-                            <h2>Please, take the time</h2>
+                            <h2 className='Thanks-title'>
+                                Please, take the time
+                            </h2>
                             <p className='Thanks-p'>
                                 We appreciate you taking the time to give a
                                 rating. If you ever need more support, don’t
